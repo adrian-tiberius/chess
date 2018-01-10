@@ -1,0 +1,24 @@
+{
+  "name": "chess",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "GPL3",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint lib",
+    "lint:watch": "npm run lint -- --watch",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "verify-tests": "jest --coverage"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "jest": "^22.0.4"
+  }
+}
